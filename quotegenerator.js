@@ -1,7 +1,7 @@
 var Quotes = [
     {quote:"It would be better for me... that multitudes of men should disagree with me rather than that I, being one, should be out of harmony with myself.", author:"Gorgias"},
     {quote:"Anyone who holds a true opinion without understanding is like a blind man on the right road.", author:"Plato"},
-    {quote:"", author: ""}
+    {quote:"I’ve said if Ivanka weren’t my daughter, perhaps I’d be dating her", author:"Donald Trump"}
    ]
    
    document.addEventListener('DOMContentLoaded', loadQuote);

@@ -4,13 +4,15 @@
   <title>Quote Generator</title>
   <meta charset="UTF-8">
   <script src="quotegenerator.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <div id="quote-box">
-    <div id="text"> </div>
-    <div id="author"> </div>
-    <div id="new-quote">  </div>
-    <div id="tweet-quote">  </div>
+  <div id="quote-box" class="container">
+    <div id="text" class="row"></div>
+    <div id="author" class="row author"></div>
+    <button id="new-quote" onclick="loadQuote()" class="row">New Quote</button>
+    <div id="tweet-quote"></div>
   </div>
 </body>
 </html>
